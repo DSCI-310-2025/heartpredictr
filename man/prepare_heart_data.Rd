@@ -27,8 +27,10 @@ A list containing train_data and test_data dataframes
 Loads a dataset and performs necessary preprocessing, then splits it into training and test sets
 }
 \examples{
+\dontrun{
 data_splits <- prepare_heart_data("data/heart_attack.csv")
 train_data <- data_splits$train_data
 test_data <- data_splits$test_data
+}
 
 }

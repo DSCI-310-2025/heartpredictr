@@ -13,9 +13,11 @@
 #' @return A list containing train_data and test_data dataframes
 #'
 #' @examples
+#' \dontrun{
 #' data_splits <- prepare_heart_data("data/heart_attack.csv")
 #' train_data <- data_splits$train_data
 #' test_data <- data_splits$test_data
+#' }
 #'
 #' @export
 prepare_heart_data <- function(file_path,

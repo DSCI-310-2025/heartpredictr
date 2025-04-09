@@ -2,7 +2,12 @@ Package: heartpredictr
 Title: Functions for Heart Attack Risk Prediction
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "last", email = "example@gmail.com", role = c("aut", "cre"))
+    c(
+      person("Chengyou", "Xiang", role = "aut"),
+      person("Junhao", "Wen", email = "w2780651372@gmail.com", role = c("aut", "cre")),
+      person("Peng", "Zhong", role = "aut"),
+      person("ZiXun", "Fang", role = "aut")
+    )
 Description: A collection of helper functions for heart attack risk prediction in India,
     including data cleaning, splitting, visualization, and statistical analysis.
     This package supports reproducible and modular analysis workflows in epidemiological data science.
@@ -16,7 +21,8 @@ Imports:
     ggplot2,
     readr,
     broom,
-    caret
+    caret,
+    tibble
 Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
