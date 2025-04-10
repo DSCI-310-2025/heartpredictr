@@ -1,6 +1,9 @@
 
 # heartpredictr <img src="https://img.shields.io/badge/version-0.0.0.9000-blue" align="right" />
 
+![R-CMD-check](https://github.com/DSCI-310-2025/heartpredictr/actions/workflows/R-CMD-check.yaml/badge.svg)
+[![codecov](https://codecov.io/gh/DSCI-310-2025/heartpredictr/branch/main/graph/badge.svg)](https://codecov.io/gh/DSCI-310-2025/heartpredictr)
+
 > 📦 A helper package for heart attack risk prediction in India
 
 The `heartpredictr` R package provides reusable and tested helper
@@ -11,6 +14,7 @@ It is designed for modularity, reproducibility, and ease of use in
 health data science workflows, particularly focused on epidemiological
 modeling in the Indian context.
 
+------------------------------------------------------------------------
 
 ## 📦 Installation
 
@@ -21,6 +25,7 @@ Install the development version from GitHub using:
 devtools::install_github("DSCI-310-2025/heartpredictr")
 ```
 
+------------------------------------------------------------------------
 
 ## 🔧 Main Functions
 
@@ -38,6 +43,7 @@ The package currently includes four key functions:
 Each function handles errors gracefully and has been tested using
 `testthat`.
 
+------------------------------------------------------------------------
 
 ## 💻 Usage Example
 
@@ -58,6 +64,7 @@ create_correlation_heatmap(train_clean)
 get_significant_variables(train_clean, target = "Heart_Attack_Risk", p_thresh = 0.05)
 ```
 
+------------------------------------------------------------------------
 
 ## 📊 Background
 
@@ -66,6 +73,7 @@ support our group project on heart attack risk prediction in India,
 based on [this Kaggle
 dataset](https://www.kaggle.com/datasets/ankushpanday2/heart-attack-risk-and-prediction-dataset-in-india).
 
+------------------------------------------------------------------------
 
 ## ✅ Testing and CI
 

@@ -4,6 +4,9 @@ output: github_document
 
 # heartpredictr <img src="https://img.shields.io/badge/version-0.0.0.9000-blue" align="right" />
 
+![R-CMD-check](https://github.com/DSCI-310-2025/heartpredictr/actions/workflows/R-CMD-check.yaml/badge.svg)
+[![codecov](https://codecov.io/gh/DSCI-310-2025/heartpredictr/branch/main/graph/badge.svg)](https://codecov.io/gh/DSCI-310-2025/heartpredictr)
+
 > 📦 A helper package for heart attack risk prediction in India
 
 The `heartpredictr` R package provides reusable and tested helper functions to support data preprocessing, visualization, and variable selection for building heart attack risk prediction models.
