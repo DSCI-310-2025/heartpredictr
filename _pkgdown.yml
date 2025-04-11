@@ -1,4 +1,8 @@
-url: ~
+url: https://dsci-310-2025.github.io/heartpredictr/
 template:
   bootstrap: 5
 
+articles:
+  - title: "Introduction to heartpredictr"
+    contents:
+      - heartpredictr-tutorial
