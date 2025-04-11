@@ -9,6 +9,8 @@
 #'
 #' @return A character vector of significant variable names.
 #' @export
+#' @importFrom dplyr %>% where
+#' @importFrom stats as.formula glm binomial
 get_significant_variables <- function(data, target = "Heart_Attack_Risk", p_thresh = 0.15) {
   if (!is.data.frame(data)) stop("Input must be a data frame.")
   if (!(target %in% names(data))) stop("Target column not found in data.")
