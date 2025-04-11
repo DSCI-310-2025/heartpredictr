@@ -6,6 +6,7 @@
 #'
 #' @return A cleaned data frame with selected columns and categorical columns converted to factors.
 #' @export
+#' @importFrom dplyr %>% where
 clean_heart_data <- function(df) {
   df_clean <- df %>%
     dplyr::select(-Patient_ID, -State_Name, -Gender) %>%

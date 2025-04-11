@@ -20,6 +20,7 @@
 #' }
 #'
 #' @export
+#' @importFrom dplyr %>% where
 prepare_heart_data <- function(file_path,
                                target_col = "Heart_Attack_Risk",
                                train_ratio = 0.7,
