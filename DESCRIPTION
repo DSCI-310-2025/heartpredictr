@@ -22,7 +22,8 @@ Imports:
     readr,
     broom,
     caret,
-    tibble
+    tibble,
+    stats
 Suggests:
     covr,
     knitr,
