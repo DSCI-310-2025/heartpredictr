@@ -1,6 +1,7 @@
 library(testthat)
 library(dplyr)
 library(broom)
+library(tibble)
 
 test_that("Function returns significant variables correctly", {
   data <- make_fake_heart_data(50)
