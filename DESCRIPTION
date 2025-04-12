@@ -22,13 +22,12 @@ Imports:
     readr,
     broom,
     caret,
-    tibble,
     stats
+    tibble,
 Suggests:
     covr,
     knitr,
     rmarkdown,
-    tibble,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 VignetteBuilder: knitr
