@@ -22,3 +22,5 @@ importFrom(stats,binomial)
 importFrom(stats,cor)
 importFrom(stats,glm)
 importFrom(tidyr,pivot_longer)
+import(tibble)
+
